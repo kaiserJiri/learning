@@ -32,6 +32,10 @@ Tento web používá jen prohlížeč; neposílá pokrok na server a neobsahuje 
 
 ## Ověření
 
+Rozhraní používá tmavý vzhled a přizpůsobuje se telefonu, tabletu i počítači. Na dotykových šířkách do 900 px je navigace dole, včetně prostoru pro systémovou bezpečnou oblast. Kvízy mají vlastní posouvání pro nízké obrazovky a zobrazení naležato.
+
+Testy zahrnují uložení pokroku, chybné odpovědi a deset velikostí obrazovky od 320 px do 1440 px. Kontrolují navigaci, vodorovné přetékání a použitelnost lekcí a kvízů; byly spuštěny v Chromiu. Skutečná zařízení a ostatní prohlížeče se ověřují samostatně.
+
 ```sh
 npx playwright install chromium
 npm test
